@@ -1,0 +1,234 @@
+2020-11-25 08:03:11: -----------Request----------->
+POST https://gorest.co.in/public-api/users
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Authorization: Bearer valid_token
+Content-Type: application/json
+Content-Length: 115
+
+{"name": "Vasanti Devar", "email": "vasanti_devar_test_xz@welch-batz.name", "gender": "Female", "status": "Active"}
+
+2020-11-25 08:03:11: <-----------Response-----------
+Status code: 200
+
+Server: nginx
+Date: Wed, 25 Nov 2020 18:03:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin
+X-Frame-Options: SAMEORIGIN, sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://gorest.co.in/public-api/users/1626
+ETag: W/"585e465629440acf47611d071861377b"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: d52efa6d-6c60-4172-99d2-e88fc4822a32
+X-Runtime: 0.014250
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{"code":201,"meta":null,"data":{"id":1626,"name":"Vasanti Devar","email":"vasanti_devar_test_xz@welch-batz.name","gender":"Female","status":"Active","created_at":"2020-11-25T23:33:11.583+05:30","updated_at":"2020-11-25T23:33:11.583+05:30"}}
+
+2020-11-25 08:03:11: -----------Request----------->
+PUT https://gorest.co.in/public-api/users/1626
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Authorization: Bearer valid_token
+Content-Type: application/json
+Content-Length: 116
+
+{"name": "Vasanti Devar2", "email": "vasanti_devar_test_xz@welch-batz.name", "gender": "Female", "status": "Active"}
+
+2020-11-25 08:03:11: <-----------Response-----------
+Status code: 200
+
+Server: nginx
+Date: Wed, 25 Nov 2020 18:03:12 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin
+X-Frame-Options: SAMEORIGIN, sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"cf20553de142eec3ae09bbe248c32007"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: a32d8b32-19c8-40c0-a704-ee7546bee99c
+X-Runtime: 0.013570
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{"code":200,"meta":null,"data":{"id":1626,"email":"vasanti_devar_test_xz@welch-batz.name","name":"Vasanti Devar2","gender":"Female","status":"Active","created_at":"2020-11-25T23:33:11.583+05:30","updated_at":"2020-11-25T23:33:12.426+05:30"}}
+
+2020-11-25 08:03:12: -----------Request----------->
+GET https://gorest.co.in/public-api/users/1626
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Authorization: Bearer valid_token
+Content-Type: application/json
+
+None
+
+2020-11-25 08:03:12: <-----------Response-----------
+Status code: 200
+
+Server: nginx
+Date: Wed, 25 Nov 2020 18:03:13 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin
+X-Frame-Options: SAMEORIGIN, sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"89258b2c2506353d48c326766c402f7f"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 3b951a3d-8f68-4464-8a90-2fe0b97bea19
+X-Runtime: 0.012064
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{"code":200,"meta":null,"data":{"id":1626,"name":"Vasanti Devar2","email":"vasanti_devar_test_xz@welch-batz.name","gender":"Female","status":"Active","created_at":"2020-11-25T23:33:11.583+05:30","updated_at":"2020-11-25T23:33:12.426+05:30"}}
+
+2020-11-25 08:03:13: -----------Request----------->
+DELETE https://gorest.co.in/public-api/users/1626
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Authorization: Bearer valid_token
+Content-Type: application/json
+Content-Length: 0
+
+None
+
+2020-11-25 08:03:13: <-----------Response-----------
+Status code: 200
+
+Server: nginx
+Date: Wed, 25 Nov 2020 18:03:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin
+X-Frame-Options: SAMEORIGIN, sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"9132bec7c413b5b015be1efe1c6efe72"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 10f1ecd2-3703-42ad-91cb-1e0e7c244679
+X-Runtime: 0.014244
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{"code":204,"meta":null,"data":null}
+
+2020-11-25 08:03:14: -----------Request----------->
+POST https://gorest.co.in/public-api/users
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Authorization: Bearer invalid_token
+Content-Type: application/json
+Content-Length: 115
+
+{"name": "Vasanti Devar", "email": "vasanti_devar_test_xz@welch-batz.name", "gender": "Female", "status": "Active"}
+
+2020-11-25 08:03:14: <-----------Response-----------
+Status code: 200
+
+Server: nginx
+Date: Wed, 25 Nov 2020 18:03:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin
+X-Frame-Options: SAMEORIGIN, sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 072fbded-f0e1-4a1c-a72d-e0955a1396b6
+X-Runtime: 0.007298
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+2020-11-25 08:03:15: -----------Request----------->
+POST https://gorest.co.in/public-api/users
+
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Authorization: Bearer valid_token
+Content-Type: application/json
+Content-Length: 2
+
+{}
+
+2020-11-25 08:03:15: <-----------Response-----------
+Status code: 200
+
+Server: nginx
+Date: Wed, 25 Nov 2020 18:03:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin
+X-Frame-Options: SAMEORIGIN, sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"b225ce8b7c0d58252336e8f1bc99b980"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 56ee76cf-6146-4375-9e7a-d0dddc4b53a4
+X-Runtime: 0.016468
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{"code":422,"meta":null,"data":[{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank"},{"field":"status","message":"can't be blank"}]}
+

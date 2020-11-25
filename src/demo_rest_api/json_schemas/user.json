@@ -1,0 +1,151 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "code": 200,
+            "meta": null,
+            "data": {
+                "id": 1449,
+                "email": "vasanti_devar_test_xz@welch-batz.name",
+                "name": "Vasanti Devar2",
+                "gender": "Female",
+                "status": "Active",
+                "created_at": "2020-11-25T00:21:44.032+05:30",
+                "updated_at": "2020-11-25T00:21:58.131+05:30"
+            }
+        }
+    ],
+    "required": [
+        "code",
+        "meta",
+        "data"
+    ],
+    "properties": {
+        "code": {
+            "$id": "#/properties/code",
+            "type": "integer",
+            "title": "The code schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                200
+            ]
+        },
+        "meta": {
+            "$id": "#/properties/meta",
+            "type": "null",
+            "title": "The meta schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": null,
+            "examples": [
+                null
+            ]
+        },
+        "data": {
+            "$id": "#/properties/data",
+            "type": "object",
+            "title": "The data schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "id": 1449,
+                    "email": "vasanti_devar_test_xz@welch-batz.name",
+                    "name": "Vasanti Devar2",
+                    "gender": "Female",
+                    "status": "Active",
+                    "created_at": "2020-11-25T00:21:44.032+05:30",
+                    "updated_at": "2020-11-25T00:21:58.131+05:30"
+                }
+            ],
+            "required": [
+                "id",
+                "email",
+                "name",
+                "gender",
+                "status",
+                "created_at",
+                "updated_at"
+            ],
+            "properties": {
+                "id": {
+                    "$id": "#/properties/data/properties/id",
+                    "type": "integer",
+                    "title": "The id schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        1449
+                    ]
+                },
+                "email": {
+                    "$id": "#/properties/data/properties/email",
+                    "type": "string",
+                    "title": "The email schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "vasanti_devar_test_xz@welch-batz.name"
+                    ]
+                },
+                "name": {
+                    "$id": "#/properties/data/properties/name",
+                    "type": "string",
+                    "title": "The name schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "Vasanti Devar2"
+                    ]
+                },
+                "gender": {
+                    "$id": "#/properties/data/properties/gender",
+                    "type": "string",
+                    "title": "The gender schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "Female"
+                    ]
+                },
+                "status": {
+                    "$id": "#/properties/data/properties/status",
+                    "type": "string",
+                    "title": "The status schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "Active"
+                    ]
+                },
+                "created_at": {
+                    "$id": "#/properties/data/properties/created_at",
+                    "type": "string",
+                    "title": "The created_at schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "2020-11-25T00:21:44.032+05:30"
+                    ]
+                },
+                "updated_at": {
+                    "$id": "#/properties/data/properties/updated_at",
+                    "type": "string",
+                    "title": "The updated_at schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "2020-11-25T00:21:58.131+05:30"
+                    ]
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}
